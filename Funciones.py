@@ -40,10 +40,12 @@ while s!='salir':
     datos_factorial.append(diccionario_factorial)
     s=input('Otro Nombre (salir=Finalizar   :')
 
+    
+    print()
 
-print()
+    print()
+    def listar_datos():
+        for d_c in range(len(datos_nombre)):
+            print(datos_nombre [d_c], datos_factorial[d_c])
 
-print()
-for d_c in range(len(datos_nombre)):
-    print(datos_nombre [d_c], datos_factorial[d_c])
-
+listar_datos()

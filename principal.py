@@ -1,4 +1,4 @@
 from funciones import*
 
-nombres
-numero
+nombres()
+numero()
