@@ -6,8 +6,9 @@ nombre =""
 #diccionario_factorial = []
 datos_nombre=[]
 datos_factorial =[]
+s=""
 
-for q in range(2):
+while s!='salir':
     diccionario_nombre=[]
     diccionario_factorial = []
     def nombres():
@@ -37,6 +38,7 @@ for q in range(2):
             break
     datos_nombre.append(diccionario_nombre)
     datos_factorial.append(diccionario_factorial)
+    s=input('Otro Nombre (salir=Finalizar   :')
 
 
 print()
